@@ -1,0 +1,32 @@
+To do list:
+Step1:
+create HTML part using label,input field and table.
+create js part functionality.
+
+
+Color Pattern:
+Step1:
+create HTML part using div tags by making color palettes.
+create css part making color palette add colors and fix size using padding,margin,width and use hover affects.
+add button tag
+Step2:
+Create Js part using add functionality of button tag to check generated color is valid or not.
+Step3:
+Testing
+
+
+Metric conversion:
+Step1:
+Create HTML part using  2 textbox to enter input type should be in number format.
+Add a button.
+Step2:
+Create js part to add functionality to convert the metric conversion after adding input when we click button.
+step3:
+Testing
+
+Country filter:
+Step1:
+Create html part to dropdown box using select tag and add input fields in it.
+Add a scroll own button.
+Step2:
+create js part to add functionality.

@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TO DO List</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <label for="fname">Item</label>
-    <input type="text" /><br />
+    <h1>TO DO LIST</h1>
+    <label>Task Description</label><br />
+    <textarea style="margin-top: 10px" id="taskInput"></textarea>
+    <br /><br />
+    <label>Date</label>
+    <input type="Date" id="dateInput" /><br />
     <br />
-
-    <label for="lname">Date</label>
-    <input type="text" /><br />
-    <br />
-    <input type="button" value="Add" onclick="add()" />
+    <button type="button" onclick="addTaskDescToDoList()">Add Task</button>
+    <br /><br /><br />
     <table style="width: 100%">
       <tr>
         <th>Date</th>
-        <th>To Do List</th>
+        <th>Task Description</th>
         <th>Action</th>
       </tr>
-      <tr>
-        <td><input type="text" style="width: 100%" /></td>
-        <td><input type="text" style="width: 100%" /></td>
-        <td><input type="checkbox" /></td>
-      </tr>
+      <tbody id="Task-Info"></tbody>
     </table>
+    <script src="script.js"></script>
   </body>
 </html>
-
